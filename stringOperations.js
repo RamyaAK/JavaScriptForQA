@@ -101,10 +101,3 @@ function employee(name, jobtitle, born) {
   employee.prototype.salary = 9000000000; // adding new property to the employee object.
   var ramya = new employee("Ramya A Kulkarni", "SDET", 1993);
   console.log(ramya.salary)
-
-
-
-
-
-
-
