@@ -24,3 +24,16 @@ for (let i = 1; i < y; i++) {
     str5 = str5.concat("\n")
 }
 console.log(str5)
+
+// triangle with spaces 
+
+var a = '';
+var n = 5;
+var m = (n-1); 
+for(i=1; i <= n; i++)
+{
+    a = a.trim();
+    a = ' '.repeat(m) + a + (i > 1 ? ' ' : '') + '*';
+    console.log(a);
+    m--;
+}
