@@ -11,8 +11,18 @@ var person ={
     }
 }
 
+// dot Notation
 console.log(person)
 console.log(person.isMarried)
 console.log(person.children)
 console.log(person.children[1])
 console.log(person.favThing.thingName)
+
+//Bracket Notation
+
+console.log(person["favName"])
+console.log(person["isMarried"])
+console.log(person["children"])
+console.log(person["children"][0])
+console.log(person["children"][1])
+console.log(person["favThing"]["thingName"])
