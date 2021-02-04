@@ -1,3 +1,4 @@
+// We are creating the Object named person.
 var person ={
     favName: "Rashmi",
     favColor: "Blue",
